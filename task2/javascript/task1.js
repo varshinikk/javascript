@@ -1,0 +1,12 @@
+var firstno=10;
+var secondno=20;
+var add= firstno + secondno;
+var sub= firstno - secondno;
+var mul= firstno * secondno;
+var div= firstno / secondno;
+document.write("firstno : " +firstno +"<br>");
+document.write("secondno : " +secondno +"<br>");
+document.write(firstno +"+" +secondno +"=" +add +"<br>");
+document.write(firstno +"-" +secondno +"=" +sub +"<br>");
+document.write(firstno +"*" +secondno +"=" +mul +"<br>");
+document.write(firstno +"/" +secondno +"=" +div +"<br>");
