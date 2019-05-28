@@ -1,28 +1,30 @@
-function enter(elem){
-	var i=3;
-	if () {
-     elem.style.backgroundColor = '#FF0000';
+function enter(){
+	if(document.getElementById("demo").style.backgroundColor=="red") {
+        document.getElementById("demo").style.backgroundColor="white"
+    
     }
     else
     {
-    	elem.style.backgroundColor = '#FFFFFF';
+        document.getElementById("demo").style.backgroundColor="red"
     }
  }
-
- // function leave(elem){
-     
- // }
- function green(elem){
-     elem.style.backgroundColor = 'green';
+ function enter1(){
+    if(document.getElementById("demo1").style.backgroundColor=="green") {
+        document.getElementById("demo1").style.backgroundColor="white"
+    
+    }
+    else
+    {
+        document.getElementById("demo1").style.backgroundColor="green"
+    }
  }
-
- function left(elem){
-     elem.style.backgroundColor = '#FFFFFF';
- }
- function yellow(elem){
-     elem.style.backgroundColor = 'yellow';
- }
-
- function leftover(elem){
-     elem.style.backgroundColor = '#FFFFFF';
+ function enter2(){
+    if(document.getElementById("demo2").style.backgroundColor=="yellow") {
+        document.getElementById("demo2").style.backgroundColor="white"
+    
+    }
+    else
+    {
+        document.getElementById("demo2").style.backgroundColor="yellow"
+    }
  }
