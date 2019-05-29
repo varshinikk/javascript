@@ -13,7 +13,7 @@
 }
 .div3
 {
-	margin-left: 119px;
+	margin-left: 118px;
 }
 .div4
 {
@@ -22,7 +22,43 @@
 .button1
 {
 	margin-top: 25px;
-    margin-left: 85px;
+    margin-left: 125px;
     padding: 5px;
     border: 1px solid;
+    border-radius: 5px;
+    background-color:#D35400;
+    color: white;
+}
+.button2
+{
+	margin-left: 4px;
+	padding: 5px;
+	border: 1px solid;
+    border-radius: 5px;
+    background-color:#D35400;
+    color: white;
+}
+.button3
+{
+	margin-top: 45px;
+    margin-left: 163px;
+    padding: 5px;
+	border: 1px solid;
+    border-radius: 5px;
+    background-color:#27AE60;
+    color: white;
+}
+.output
+{
+	padding:20px;
+	height: 100px;
+	margin-top: 70px;
+	padding-left: 500px;
+    width: 100%;
+    background-color:#E5E7E9;
+}
+#demo
+{
+	color:black;
+	font-size: 35px;
 }

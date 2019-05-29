@@ -21,5 +21,6 @@ function updatecost()
 		if (items[i].type=='checkbox' && items[i].checked==true)
 			sum=parseInt(items[i].value)+sum;
 	}
-	document.write("total is = "+sum);
+	// document.write("total is = "+sum);
+	document.getElementById("demo").innerHTML="total is "+sum;
 }

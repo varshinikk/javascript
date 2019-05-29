@@ -5,7 +5,6 @@
 	<link rel="stylesheet" type="text/css" href="./css/task1.css">
 </head>
 <body>
-<p id="demo"></p>
 <p class="first"><b>Get the total</b></p>
 <div><input class="div1" type="checkbox" name="rs" value="5$">5$
 <input class="div2" type="checkbox" name="rs" value="10$"> 10$
@@ -14,8 +13,11 @@
 <input class="div3" type="checkbox" name="rs" value="25$"> 25$
 <input class="div4" type="checkbox" name="rs" value="35$"> 35$</div>
 <input class="button1" type="button" onclick='selectAll();' value="Select All"/>
-<input type="button" onclick='UnSelectAll();' value="Unselect All"/><br>
-<input type="button" name="submit" value="submit" onclick="updatecost();">
+<input class="button2" type="button" onclick='UnSelectAll();' value="Unselect All"/><br>
+<input class="button3" type="button" name="submit" value="submit" onclick="updatecost();">
+<div class="output">
+<p id="demo"></p>
+</div>
 <script type="text/javascript" src="./javascript/task1.js"></script>
 </body>
 </html>
